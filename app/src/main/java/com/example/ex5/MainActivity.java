@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
         textResposta = findViewById(R.id.textResposta);
     }
 
+    //Método para calcular preço
     public void calcularPreco(View view){
 
         double precoGasolina = Double.parseDouble(inputGasolina.getText().toString());
